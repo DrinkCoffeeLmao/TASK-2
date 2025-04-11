@@ -29,7 +29,8 @@ and the keys should be mapped accordingly
 - `check` variable stores the Serial.read() value and checks it with the if conditions put forth in the below code.
 ### void setup
 pinModes have been mapped appropriately and set baud rate to 9600
-###void loop
+
+### void loop
 - Storing `Serial.read()` value in `check`. Serial.read() gets the keyboard input directly and processes it.
 - The `if` condition statements have been implemented to enable power supply and direction to the respective motors. It is generally advisable to put all the statements inside a `if(Serial.available()>0)`, but since it's a small code, de-buggin is relatively easier.
 - The `digitalWrite()` sets the **direction** of spin for the motor. `HIGH` denotes anti-clockwise spine and `LOW` denotes clockwise spin.
