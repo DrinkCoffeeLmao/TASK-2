@@ -19,8 +19,7 @@ and the keys should be mapped accordingly
 |Device|Pins|
 |:-----|:---|
 |MD10C(Motor Drive)|DIR>13   PWM>~11|
-|                  |GND>GND A&B>Motor|
-|:-----------------|:----------------|
+                    GND>GND A&B>Motor
  The power pins were connected to the respective terminals of the batter. The connections were made sure so that the terminals don't touch each other to and melt the arduino board or burst the batter ;)
 
 ## Code explanation
