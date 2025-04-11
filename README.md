@@ -38,8 +38,12 @@ pinModes have been mapped appropriately and set baud rate to 9600
 - `delay()` is implemented because the code will be executed so fast that the motor practically does not spin, so a delay of 0.5 seconds is implemented.
 
 *Forward*- Both motors are set to spin anti-clockwise at high speed.
+
 *Backward*- Both motors are set to spin clockwise at high speed.
+
 *Rightwards*- **Left** motors is set to spin anti-clockwise at high speed
+
 *Leftwards*- **Right** motor is set to spin anti-clockwise at high speed
+
 *No input*- No motor spins, i.e, stops.
 
